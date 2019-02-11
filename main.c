@@ -30,13 +30,13 @@ void	print_solution(unsigned char *board)
 		c = board[i];
 		while (j--)
 		{
-			c & (unsigned char)128 ? write(1, "1", 1) : write(1, "0", 1);
+			c & (unsigned char)128 ? printf("1") : printf("0");
 			c <<= 1;
 		}
-		write(1, "\n", 1);
+		printf("\n");
 		i++;
 	}
-	write(1, "\n\n", 2);
+	printf("\n\n");
 }
 
 int		check_cross(unsigned char *board, int i, int j)
