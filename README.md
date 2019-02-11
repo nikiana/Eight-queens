@@ -1,2 +1,3 @@
-# Eight-queens-puzzle-bit-fields-
-Solution of Eight queens problem
+# Eight queens puzzle (bit fields)
+
+Simple solution of Eight queens problem through bitwise operations
